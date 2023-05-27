@@ -3,13 +3,13 @@
 const express = require('express');
 const app = express();
 const db = require('./config/db');
-const productRoutes = require('./routes/products');
+const eventRoute = require('./routes/eventRoute');
 
 // Middleware
 app.use(express.json());
 
 // Routes
-app.use('/products', productRoutes);
+app.use('/api/v3/app', eventRoute);
 
 // Start the server
 const PORT = 3000;
