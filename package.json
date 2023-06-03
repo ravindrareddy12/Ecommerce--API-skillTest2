@@ -20,6 +20,7 @@
   "homepage": "https://github.com/ravindrareddy12/Ecommerce-API#readme",
   "dependencies": {
     "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
     "mongoose": "^7.1.1",
     "nodemon": "^2.0.22"
   }

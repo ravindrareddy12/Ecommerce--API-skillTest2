@@ -8,8 +8,9 @@ const eventRoute = require('./routes/eventRoute');
 // Middleware
 app.use(express.json());
 
+
 // Routes
-app.use('/api/v3/app', eventRoute);
+app.use('/', eventRoute);
 
 // Start the server
 const PORT = 3000;
